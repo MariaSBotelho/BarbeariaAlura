@@ -93,22 +93,24 @@ footer{
     font-size: 13px;
     padding: 20px 0 0;
 }
-
-form{
-    margin: 40px 0 ;
-}
-
+ 
 form label, form legend{
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 20px 0 5px;
+    text-align: center;
 }
 
+form{
+    margin: 0 auto 20px;
+    width: 50%;
+    text-align: center;
+}
 .input-padrao{
     display: block;
-    margin: 0 0 20px;
+    margin: 0 auto 15px;
     padding: 10px 25px;
-    width: 50%;
+    width: 80%;
 }
 
 .checkbox{
@@ -126,6 +128,9 @@ form label, form legend{
    border-radius: 5px;
    transition: 1s all; /* demora um segunda para transformar a cor qnd o usuário passa o mouse*/
    cursor: pointer; /* cursor vira a mãozinha para clicar*/
+   text-align: center;
+   display: block; /* Mantenha display: block; */
+    margin: 0 auto;
 }
 
 .enviar:hoover{
@@ -135,7 +140,7 @@ form label, form legend{
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px auto 40px;
 }
 
 thead{
@@ -229,7 +234,7 @@ td, th {
 }
 
 .imgb{
-    width: 60%;
+    width: auto;
     box-shadow: 15px 15px 15px black;
 }
 
