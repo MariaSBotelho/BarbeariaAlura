@@ -1,0 +1,69 @@
+/*
+css - folha de estilo em cascata -- o estilo pega na tag selecionada e em qualquer outra que esteja dentro dela
+é a forma como mexemos em cada um dos elementos para estilizar o site
+*css inline- dentro do body nas tags no arquivo html, usa a propriedade style
+*usando a tag <sytle> no head 
+*arquivo externo - sytle.css
+
+Marcador de identificação -ID
+chama um id com #
+Classes- identifica um ou mais itens
+chama com um .
+
+altura = height
+largura = width   --por px ou %
+padding - margem interna
+margem - margem externa
+*/ 
+
+#banner{
+    width: 100%;
+    height: 600px;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo1{
+    padding-left: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{ /* procura a estrutura <em><strong></strong></em> no html */ 
+    color: red;
+}
+
+#missao{
+    text-align: center;
+}
+
+.titulo2{
+     text-align: center;
+}
+
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+.itens{
+    font-style: italic;
+}
+
+.imgb{
+    width: 50%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+

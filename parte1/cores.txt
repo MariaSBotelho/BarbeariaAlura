@@ -1,0 +1,28 @@
+alfabeto-- abcdef.. 
+binario -- 01
+numerico-- 0123456789
+jeitos de representar as cores de forma que sejam renderizadas:
+---------------------------------------
+hexadecimal-- 0123456789ABCDEF
+RGB : Red Green Blue -- vem da forma que enxergamos as cores a partir destas 3
+# _ _ _ _ _ _
+# R R G G B B
+0-- ausencia de cor
+# 00 00 00 - preto
+F-- máximo de cor 
+# FF FF FF - branco
+# FF 00 00 -- vermelho
+a parte vermelha esta no maximo e a verde e azul ausentes
+
+------------------------------------
+dicionario RGB {0,1,2,3.. 255}
+0 - ausencia
+255 - maximo
+rgb(255, 255, 255) - branco
+rgb(0,0,0) - preto
+rgb(255,0,0) - vermelho
+rgb(0,255,0) - verde
+rgb(0,0,255) - azul
+
+------------------------------------
+pelos nomes: red, blue, green, yellow, pink...

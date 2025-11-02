@@ -1,0 +1,14 @@
+equipe front-end
+
+UX - Usabilidade do site 
+user experience
+responsavel pela forma que as informaçoes serão entregues
+
+UI - interface do design
+user interface - design
+da um visual para o conteudo que deve ser entregue
+
+desenvolvedor front
+pega a informaçoes e o visual disponibilizado pela UI ou UX e 
+transforma em um codigo web
+
